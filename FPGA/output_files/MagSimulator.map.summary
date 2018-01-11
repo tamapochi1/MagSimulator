@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Tue Jan 09 17:31:01 2018
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+Revision Name : MagSimulator
+Top-level Entity Name : MagSimulator
+Family : MAX 10
+Total logic elements : 4,902
+    Total combinational functions : 2,775
+    Dedicated logic registers : 3,664
+Total registers : 3664
+Total pins : 53
+Total virtual pins : 0
+Total memory bits : 391,180
+Embedded Multiplier 9-bit elements : 82
+Total PLLs : 1
+UFM blocks : 0
+ADC blocks : 0

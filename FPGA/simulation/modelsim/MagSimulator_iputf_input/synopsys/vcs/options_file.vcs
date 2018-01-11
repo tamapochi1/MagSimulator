@@ -1,0 +1,15 @@
+  F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/fpoint2_multi.vhd \
+  F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/fpoint2_multi_datapath.vhd \
+  F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/fpoint2_multi_dspba_library_package.vhd \
+  F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/fpoint2_multi_dspba_library.vhd \
+  F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPAddSub/FPAddSub.vhd \
+  F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPDiv/FPDiv.vhd \
+  F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPMult/FPMult.vhd \
+  F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/IntToFloat/IntToFloat.vhd \
+  F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FloatToInt/FloatToInt.vhd \
+  F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPSqrt/FPSqrt_safe_path.vhd \
+  F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPSqrt/FPSqrt.vhd \
+  F:/Git/MagSimulator/FPGA/FPH/simulation/FPH.v \
+  F:/Git/MagSimulator/FPGA/MULT_sim/MULT.vo \
+  F:/Git/MagSimulator/FPGA/ADD_sim/ADD.vo \
+  F:/Git/MagSimulator/FPGA/DIV_sim/DIV.vo \

@@ -1,0 +1,50 @@
+Info: Starting: Create simulation model
+Info: qsys-generate F:\Git\MagSimulator\FPH.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=F:\Git\MagSimulator\FPH\simulation --family="MAX 10" --part=10M16SCU169I7G
+Progress: Loading MagSimulator/FPH.qsys
+Progress: Reading input file
+Progress: Adding nios_custom_instr_floating_point_2_multi_0 [altera_nios_custom_instr_floating_point_2_multi 17.0]
+Progress: Parameterizing module nios_custom_instr_floating_point_2_multi_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: FPH: Generating FPH "FPH" for SIM_VERILOG
+Info: nios_custom_instr_floating_point_2_multi_0: "FPH" instantiated altera_nios_custom_instr_floating_point_2_multi "nios_custom_instr_floating_point_2_multi_0"
+Info: FPH: Done "FPH" with 2 modules, 15 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=F:\Git\MagSimulator\FPH\FPH.spd --output-directory=F:/Git/MagSimulator/FPH/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=F:\Git\MagSimulator\FPH\FPH.spd --output-directory=F:/Git/MagSimulator/FPH/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in F:/Git/MagSimulator/FPH/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Skipping VCS script generation since VHDL file $QUARTUS_INSTALL_DIR/eda/sim_lib/altera_syn_attributes.vhd is required for simulation
+Info: Generating the following file(s) for VCSMX simulator in F:/Git/MagSimulator/FPH/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in F:/Git/MagSimulator/FPH/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	1 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in F:/Git/MagSimulator/FPH/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under F:/Git/MagSimulator/FPH/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate F:\Git\MagSimulator\FPH.qsys --synthesis=VERILOG --output-directory=F:\Git\MagSimulator\FPH\synthesis --family="MAX 10" --part=10M16SCU169I7G
+Progress: Loading MagSimulator/FPH.qsys
+Progress: Reading input file
+Progress: Adding nios_custom_instr_floating_point_2_multi_0 [altera_nios_custom_instr_floating_point_2_multi 17.0]
+Progress: Parameterizing module nios_custom_instr_floating_point_2_multi_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: FPH: Generating FPH "FPH" for QUARTUS_SYNTH
+Info: nios_custom_instr_floating_point_2_multi_0: "FPH" instantiated altera_nios_custom_instr_floating_point_2_multi "nios_custom_instr_floating_point_2_multi_0"
+Info: FPH: Done "FPH" with 2 modules, 15 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

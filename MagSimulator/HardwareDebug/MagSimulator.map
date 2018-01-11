@@ -1,0 +1,133 @@
+Renesas Optimizing Linker (W2.07.00 )             04-Jan-2018 10:25:24
+
+*** Options ***
+
+-noprelink
+-subcommand=LinkerSubCommand.tmp
+-input=".\r_bsp/board/user\dbsct.obj"
+-input=".\r_bsp/board/user\hwsetup.obj"
+-input=".\r_bsp/board/user\lowlvl.obj"
+-input=".\r_bsp/board/user\lowsrc.obj"
+-input=".\r_bsp/board/user\resetprg.obj"
+-input=".\r_bsp/board/user\sbrk.obj"
+-input=".\r_bsp/board/user\vecttbl.obj"
+-input=".\r_bsp/mcu/all\r_bsp_common.obj"
+-input=".\r_bsp/mcu/rx71m\cpu.obj"
+-input=".\r_bsp/mcu/rx71m\locking.obj"
+-input=".\r_bsp/mcu/rx71m\mcu_clocks.obj"
+-input=".\r_bsp/mcu/rx71m\mcu_init.obj"
+-input=".\r_bsp/mcu/rx71m\mcu_interrupts.obj"
+-input=".\r_bsp/mcu/rx71m\mcu_locks.obj"
+-input=".\r_bsp/mcu/rx71m\mcu_mapped_interrupts.obj"
+-input=".\r_usb_basic/src/driver\r_usb_cdataio.obj"
+-input=".\r_usb_basic/src/driver\r_usb_clibusbip.obj"
+-input=".\r_usb_basic/src/driver\r_usb_hbc.obj"
+-input=".\r_usb_basic/src/driver\r_usb_hcontrolrw.obj"
+-input=".\r_usb_basic/src/driver\r_usb_hdriver.obj"
+-input=".\r_usb_basic/src/driver\r_usb_hhubsys.obj"
+-input=".\r_usb_basic/src/driver\r_usb_hintfifo.obj"
+-input=".\r_usb_basic/src/driver\r_usb_hinthandler_usbip0.obj"
+-input=".\r_usb_basic/src/driver\r_usb_hinthandler_usbip1.obj"
+-input=".\r_usb_basic/src/driver\r_usb_hlibusbip.obj"
+-input=".\r_usb_basic/src/driver\r_usb_hmanager.obj"
+-input=".\r_usb_basic/src/driver\r_usb_hscheduler.obj"
+-input=".\r_usb_basic/src/driver\r_usb_hsignal.obj"
+-input=".\r_usb_basic/src/driver\r_usb_hstdfunction.obj"
+-input=".\r_usb_basic/src/driver\r_usb_pbc.obj"
+-input=".\r_usb_basic/src/driver\r_usb_pcontrolrw.obj"
+-input=".\r_usb_basic/src/driver\r_usb_pdriver.obj"
+-input=".\r_usb_basic/src/driver\r_usb_peptable.obj"
+-input=".\r_usb_basic/src/driver\r_usb_pintfifo.obj"
+-input=".\r_usb_basic/src/driver\r_usb_pinthandler_usbip0.obj"
+-input=".\r_usb_basic/src/driver\r_usb_plibusbip.obj"
+-input=".\r_usb_basic/src/driver\r_usb_psignal.obj"
+-input=".\r_usb_basic/src/driver\r_usb_pstdfunction.obj"
+-input=".\r_usb_basic/src/driver\r_usb_pstdrequest.obj"
+-input=".\r_usb_basic/src/driver\r_usb_usbif_api.obj"
+-input=".\r_usb_basic/src/hw\r_usb_creg_abs.obj"
+-input=".\r_usb_basic/src/hw\r_usb_creg_access.obj"
+-input=".\r_usb_basic/src/hw\r_usb_dma.obj"
+-input=".\r_usb_basic/src/hw\r_usb_hostelectrical.obj"
+-input=".\r_usb_basic/src/hw\r_usb_hreg_abs.obj"
+-input=".\r_usb_basic/src/hw\r_usb_hreg_access.obj"
+-input=".\r_usb_basic/src/hw\r_usb_preg_abs.obj"
+-input=".\r_usb_basic/src/hw\r_usb_preg_access.obj"
+-input=".\r_usb_basic/src/hw\r_usb_rx_mcu.obj"
+-input=".\r_usb_pcdc/src\r_usb_pcdc_driver.obj"
+-input=".\src\MagSimulator.obj"
+-input=".\src/cg_src\r_cg_bsc.obj"
+-input=".\src/cg_src\r_cg_bsc_user.obj"
+-input=".\src/cg_src\r_cg_cgc.obj"
+-input=".\src/cg_src\r_cg_cgc_user.obj"
+-input=".\src/cg_src\r_cg_hardware_setup.obj"
+-input=".\src\r_usb_pcdc_descriptor.obj"
+-library=".\MagSimulator.lib"
+-start=SU,SI,B_1,R_1,B_2,R_2,B,R/04,C_1,C_2,C,C$*,D*,W*,L,P*/0FFC00000,EXCEPTVECT/0FFFFFF80,RESETVECT/0FFFFFFFC
+-output=MagSimulator.abs
+-form=absolute
+-nomessage
+-vect=_undefined_interrupt_source_isr
+-list=MagSimulator.map
+-nooptimize
+-rom=D=R,D_1=R_1,D_2=R_2
+-nologo
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+SU
+                                  00000004  00001003      1000   4
+SI
+                                  00001004  00001403       400   4
+B_1
+                                  00001404  00001449        46   1
+R_1
+                                  0000144a  000015a9       160   1
+B_2
+                                  000015aa  0000184b       2a2   2
+R_2
+                                  0000184c  0000187b        30   2
+B
+                                  0000187c  000024f3       c78   4
+R
+                                  000024f4  00002563        70   4
+$ADDR_C_120040
+                                  00120040  00120043         4   1
+$ADDR_C_120048
+                                  00120048  0012004b         4   1
+$ADDR_C_120050
+                                  00120050  0012006f        20   1
+C_1
+                                  ffc00000  ffc00005         6   1
+C_2
+                                  ffc00006  ffc0000b         6   2
+C
+                                  ffc0000c  ffc00037        2c   4
+C$DSEC
+                                  ffc00038  ffc0005b        24   4
+C$BSEC
+                                  ffc0005c  ffc00073        18   4
+C$VECT
+                                  ffc00074  ffc00473       400   4
+D
+                                  ffc00474  ffc004e3        70   4
+D_1
+                                  ffc004e4  ffc00643       160   1
+D_2
+                                  ffc00644  ffc00673        30   2
+W
+                                  ffc00674  ffc00674         0   1
+W_1
+                                  ffc00674  ffc00674         0   1
+W_2
+                                  ffc00674  ffc00674         0   1
+L
+                                  ffc00674  ffc00677         4   4
+P
+                                  ffc00678  ffc044f2      3e7b   1
+EXCEPTVECT
+                                  ffffff80  fffffffb        7c   4
+RESETVECT
+                                  fffffffc  ffffffff         4   4

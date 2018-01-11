@@ -1,0 +1,484 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Git/MagSimulator/FPGA/simulation/modelsim
+Efloattoint
+Z1 w1514360604
+Z2 DPx3 lpm 14 lpm_components 0 22 KI__]ZC5^Q9zCzFdn3gGS0
+Z3 DPx9 altera_mf 20 altera_mf_components 0 22 :YRc5<ojH^WgP]^Vezi9c1
+Z4 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z5 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z8 8F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FloatToInt/FloatToInt.vhd
+Z9 FF:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FloatToInt/FloatToInt.vhd
+l0
+L47
+V7AK6=TjoR1mMh5YRBYT4P2
+!s100 b43>>9lJWA<FA=V9OOR;80
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1515497908
+!i10b 1
+Z12 !s108 1515497908.000000
+Z13 !s90 -reportprogress|300|F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FloatToInt/FloatToInt.vhd|-work|nios_custom_instr_floating_point_2_multi_0|
+Z14 !s107 F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FloatToInt/FloatToInt.vhd|
+!i113 1
+Z15 o-work nios_custom_instr_floating_point_2_multi_0
+Z16 tExplicit 1 CvgOpt 0
+Anormal
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 floattoint 0 22 7AK6=TjoR1mMh5YRBYT4P2
+l132
+L55
+VYKQ7<1n>ZJf8cnYR::zJ[2
+!s100 nP<h;k]T2YMC5JG6[;jUK3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Efpaddsub
+R1
+R2
+R3
+Z17 DPx4 work 35 fpoint2_multi_dspba_library_package 0 22 5WJaBj;=4zNCE<nbzQkmJ3
+R4
+R5
+R6
+R7
+R0
+Z18 8F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPAddSub/FPAddSub.vhd
+Z19 FF:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPAddSub/FPAddSub.vhd
+l0
+L48
+Vc<obT9[_@b_cRgj@n]D?j1
+!s100 LVR??_@MmmCQLSTPM6]X43
+R10
+32
+R11
+!i10b 1
+R12
+Z20 !s90 -reportprogress|300|F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPAddSub/FPAddSub.vhd|-work|nios_custom_instr_floating_point_2_multi_0|
+Z21 !s107 F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPAddSub/FPAddSub.vhd|
+!i113 1
+R15
+R16
+Anormal
+R2
+R3
+R17
+R4
+R5
+R6
+R7
+DEx4 work 8 fpaddsub 0 22 c<obT9[_@b_cRgj@n]D?j1
+l526
+L59
+VHhiR4HZo9k9[;c4n3il>z0
+!s100 Z24nb<gfOP7E84dJP=k<g1
+R10
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 1
+R15
+R16
+Efpdiv
+R1
+R5
+R6
+R7
+R0
+Z22 8F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPDiv/FPDiv.vhd
+Z23 FF:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPDiv/FPDiv.vhd
+l0
+L24
+VBoW3FVfKIJmcmo]oMm=1i0
+!s100 Omc;5kMm6fB?1H76VQZg80
+R10
+32
+R11
+!i10b 1
+R12
+Z24 !s90 -reportprogress|300|F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPDiv/FPDiv.vhd|-work|nios_custom_instr_floating_point_2_multi_0|
+Z25 !s107 F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPDiv/FPDiv.vhd|
+!i113 1
+R15
+R16
+Abeh
+R5
+R6
+R7
+DEx4 work 5 fpdiv 0 22 BoW3FVfKIJmcmo]oMm=1i0
+l119
+L37
+Vli]20i@z[`CPDOKiXoJ`T2
+!s100 jCL05EOM1fm4W9FS;[W161
+R10
+32
+R11
+!i10b 1
+R12
+R24
+R25
+!i113 1
+R15
+R16
+Efpmult
+R1
+R2
+R3
+R17
+R4
+R5
+R6
+R7
+R0
+Z26 8F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPMult/FPMult.vhd
+Z27 FF:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPMult/FPMult.vhd
+l0
+L48
+V1z3GhOA9Mk:614N`R;McG0
+!s100 bbA9i;haXK40d5DENVCUS0
+R10
+32
+R11
+!i10b 1
+R12
+Z28 !s90 -reportprogress|300|F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPMult/FPMult.vhd|-work|nios_custom_instr_floating_point_2_multi_0|
+Z29 !s107 F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPMult/FPMult.vhd|
+!i113 1
+R15
+R16
+Anormal
+R2
+R3
+R17
+R4
+R5
+R6
+R7
+DEx4 work 6 fpmult 0 22 1z3GhOA9Mk:614N`R;McG0
+l297
+L58
+V;fNYMBQkSJG:PbV106h5=1
+!s100 2GMLZ>e@Y5XHfRMz>5QFm0
+R10
+32
+R11
+!i10b 1
+R12
+R28
+R29
+!i113 1
+R15
+R16
+Efpoint2_multi
+R1
+Z30 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z31 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+R6
+R7
+R0
+Z32 8F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/fpoint2_multi.vhd
+Z33 FF:/Git/MagSimulator/FPGA/FPH/simulation/submodules/fpoint2_multi.vhd
+l0
+L18
+VOVPSb?MQ5M:i?jgeZHzJi2
+!s100 _6V>NAUgn[6=fzomCDcQ?3
+R10
+32
+Z34 !s110 1515497907
+!i10b 1
+Z35 !s108 1515497907.000000
+Z36 !s90 -reportprogress|300|F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/fpoint2_multi.vhd|-work|nios_custom_instr_floating_point_2_multi_0|
+Z37 !s107 F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/fpoint2_multi.vhd|
+!i113 1
+R15
+R16
+Afpmulti
+R30
+R31
+R6
+R7
+DEx4 work 13 fpoint2_multi 0 22 OVPSb?MQ5M:i?jgeZHzJi2
+l72
+L37
+Vh?VK;i2H`VD_N;Tg5D@IE2
+!s100 aQ`^I00kM^FRebR:K5UN21
+R10
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R15
+R16
+Efpoint2_multi_datapath
+R1
+R4
+R5
+R6
+R7
+R0
+Z38 8F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/fpoint2_multi_datapath.vhd
+Z39 FF:/Git/MagSimulator/FPGA/FPH/simulation/submodules/fpoint2_multi_datapath.vhd
+l0
+L19
+V2onXojZEMS^;Dh=jcg5hW3
+!s100 j@V@Un5L^dz8Rid`R`cCA2
+R10
+32
+R34
+!i10b 1
+R35
+Z40 !s90 -reportprogress|300|F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/fpoint2_multi_datapath.vhd|-work|nios_custom_instr_floating_point_2_multi_0|
+Z41 !s107 F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/fpoint2_multi_datapath.vhd|
+!i113 1
+R15
+R16
+Afp_data_path
+R4
+R5
+R6
+R7
+DEx4 work 22 fpoint2_multi_datapath 0 22 2onXojZEMS^;Dh=jcg5hW3
+l102
+L37
+V1aLG7R6XNo8PNBe>jURlW0
+!s100 _F=R9C2mlXXgXRdQn11;H0
+R10
+32
+R34
+!i10b 1
+R35
+R40
+R41
+!i113 1
+R15
+R16
+Efpoint2_multi_dspba_delay
+R1
+R17
+R6
+R7
+R0
+Z42 8F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/fpoint2_multi_dspba_library.vhd
+Z43 FF:/Git/MagSimulator/FPGA/FPH/simulation/submodules/fpoint2_multi_dspba_library.vhd
+l0
+L30
+VfJ@1cPU>DN;NRJ5gn`Zd80
+!s100 J>1j_hOg@gB7K:czCD>SB1
+R10
+32
+R11
+!i10b 1
+R12
+Z44 !s90 -reportprogress|300|F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/fpoint2_multi_dspba_library.vhd|-work|nios_custom_instr_floating_point_2_multi_0|
+Z45 !s107 F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/fpoint2_multi_dspba_library.vhd|
+!i113 1
+R15
+R16
+Adelay
+R17
+R6
+R7
+DEx4 work 25 fpoint2_multi_dspba_delay 0 22 fJ@1cPU>DN;NRJ5gn`Zd80
+l48
+L45
+VlB^eikY7<h@BHZ1]a:GZ<0
+!s100 6PXP8Vd=VadD0_RBB5nzR1
+R10
+32
+R11
+!i10b 1
+R12
+R44
+R45
+!i113 1
+R15
+R16
+Pfpoint2_multi_dspba_library_package
+R6
+R7
+R1
+R0
+8F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/fpoint2_multi_dspba_library_package.vhd
+FF:/Git/MagSimulator/FPGA/FPH/simulation/submodules/fpoint2_multi_dspba_library_package.vhd
+l0
+L29
+V5WJaBj;=4zNCE<nbzQkmJ3
+!s100 [PbhoEVWSGU[6lcONmF9o2
+R10
+32
+R11
+!i10b 1
+R12
+!s90 -reportprogress|300|F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/fpoint2_multi_dspba_library_package.vhd|-work|nios_custom_instr_floating_point_2_multi_0|
+!s107 F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/fpoint2_multi_dspba_library_package.vhd|
+!i113 1
+R15
+R16
+Efpsqrt
+R1
+Z46 DPx4 work 16 fpsqrt_safe_path 0 22 f7hBFP[hHEED=Rg681S3g2
+R2
+R3
+R17
+R4
+R5
+R6
+R7
+R0
+Z47 8F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPSqrt/FPSqrt.vhd
+Z48 FF:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPSqrt/FPSqrt.vhd
+l0
+L48
+VY`XheMm;LZ@EMMB5`Lcac1
+!s100 [iY^SlQO32LFOOo8LW>683
+R10
+32
+Z49 !s110 1515497909
+!i10b 1
+Z50 !s108 1515497909.000000
+Z51 !s90 -reportprogress|300|F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPSqrt/FPSqrt.vhd|-work|nios_custom_instr_floating_point_2_multi_0|
+Z52 !s107 F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPSqrt/FPSqrt.vhd|
+!i113 1
+R15
+R16
+Anormal
+R46
+R2
+R3
+R17
+R4
+R5
+R6
+R7
+Z53 DEx4 work 6 fpsqrt 0 22 Y`XheMm;LZ@EMMB5`Lcac1
+l287
+L60
+Z54 Vkeze6MIA@AAIHKLW^iIi`2
+Z55 !s100 =`fH@`m809ZBW<D9`;>XR0
+R10
+32
+R49
+!i10b 1
+R50
+R51
+R52
+!i113 1
+R15
+R16
+Pfpsqrt_safe_path
+R6
+R7
+R1
+R0
+Z56 8F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPSqrt/FPSqrt_safe_path.vhd
+Z57 FF:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPSqrt/FPSqrt_safe_path.vhd
+l0
+L18
+Vf7hBFP[hHEED=Rg681S3g2
+!s100 >_>g`=j@_>]]nVz=oaMeH3
+R10
+32
+b1
+R49
+!i10b 1
+R12
+Z58 !s90 -reportprogress|300|F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPSqrt/FPSqrt_safe_path.vhd|-work|nios_custom_instr_floating_point_2_multi_0|
+Z59 !s107 F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/FPSqrt/FPSqrt_safe_path.vhd|
+!i113 1
+R15
+R16
+Bbody
+R46
+R6
+R7
+l0
+L22
+V@L5<XA@g5C3Q=FC58jkAg2
+!s100 @PKAdB1DCbT<<bge:GDOd3
+R10
+32
+R49
+!i10b 1
+R12
+R58
+R59
+!i113 1
+R15
+R16
+Einttofloat
+R1
+R2
+R3
+R17
+R4
+R5
+R6
+R7
+R0
+Z60 8F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/IntToFloat/IntToFloat.vhd
+Z61 FF:/Git/MagSimulator/FPGA/FPH/simulation/submodules/IntToFloat/IntToFloat.vhd
+l0
+L49
+VbRN;mnom?8nJZBNg_1VOm1
+!s100 OJN^2W:LXC>9iaAni7@B41
+R10
+32
+R11
+!i10b 1
+R12
+Z62 !s90 -reportprogress|300|F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/IntToFloat/IntToFloat.vhd|-work|nios_custom_instr_floating_point_2_multi_0|
+Z63 !s107 F:/Git/MagSimulator/FPGA/FPH/simulation/submodules/IntToFloat/IntToFloat.vhd|
+!i113 1
+R15
+R16
+Anormal
+R2
+R3
+R17
+R4
+R5
+R6
+R7
+DEx4 work 10 inttofloat 0 22 bRN;mnom?8nJZBNg_1VOm1
+l200
+L58
+VWDOo9CMezh;U7BP0Pc3;i0
+!s100 nZTl42LL@UcH2<K?z=R5]2
+R10
+32
+R11
+!i10b 1
+R12
+R62
+R63
+!i113 1
+R15
+R16

@@ -1,0 +1,12 @@
+PowerPlay Power Analyzer Status : Successful - Tue Jan 02 22:22:57 2018
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+Revision Name : MagSimulator
+Top-level Entity Name : MagSimulator
+Family : MAX 10
+Device : 10M16SCU169I7G
+Power Models : Final
+Total Thermal Power Dissipation : 231.42 mW
+Core Dynamic Thermal Power Dissipation : 0.00 mW
+Core Static Thermal Power Dissipation : 226.37 mW
+I/O Thermal Power Dissipation : 5.05 mW
+Power Estimation Confidence : Low: user provided insufficient toggle rate data

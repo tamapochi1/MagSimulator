@@ -1,0 +1,31 @@
+# system info FPH on 2017.12.27.16:43:22
+system_info:
+name,value
+DEVICE,10M16SCU169I7G
+DEVICE_FAMILY,MAX 10
+GENERATION_ID,1514360601
+#
+#
+# Files generated for FPH on 2017.12.27.16:43:22
+files:
+filepath,kind,attributes,module,is_top
+simulation/FPH.v,VERILOG,,FPH,true
+simulation/submodules/fpoint2_multi.vhd,VHDL,,fpoint2_multi,false
+simulation/submodules/fpoint2_multi_datapath.vhd,VHDL,,fpoint2_multi,false
+simulation/submodules/fpoint2_multi_dspba_library_package.vhd,VHDL,,fpoint2_multi,false
+simulation/submodules/fpoint2_multi_dspba_library.vhd,VHDL,,fpoint2_multi,false
+simulation/submodules/FPAddSub/FPAddSub.vhd,VHDL,,fpoint2_multi,false
+simulation/submodules/FPDiv/FPDiv.vhd,VHDL,,fpoint2_multi,false
+simulation/submodules/FPMult/FPMult.vhd,VHDL,,fpoint2_multi,false
+simulation/submodules/IntToFloat/IntToFloat.vhd,VHDL,,fpoint2_multi,false
+simulation/submodules/FloatToInt/FloatToInt.vhd,VHDL,,fpoint2_multi,false
+simulation/submodules/FPSqrt/FPSqrt_safe_path.vhd,VHDL,,fpoint2_multi,false
+simulation/submodules/FPSqrt/FPSqrt.vhd,VHDL,,fpoint2_multi,false
+simulation/submodules/FPSqrt/FPSqrt_memoryC0_uid59_sqrtTableGenerator_lutmem.hex,HEX,,fpoint2_multi,false
+simulation/submodules/FPSqrt/FPSqrt_memoryC1_uid60_sqrtTableGenerator_lutmem.hex,HEX,,fpoint2_multi,false
+simulation/submodules/FPSqrt/FPSqrt_memoryC2_uid61_sqrtTableGenerator_lutmem.hex,HEX,,fpoint2_multi,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+FPH.nios_custom_instr_floating_point_2_multi_0,fpoint2_multi

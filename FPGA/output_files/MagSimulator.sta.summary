@@ -1,0 +1,17 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 100C Model Minimum Pulse Width 'BCLK'
+Slack : 8.014
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'BCLK'
+Slack : 8.053
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'BCLK'
+Slack : 6.895
+TNS   : 0.000
+
+------------------------------------------------------------

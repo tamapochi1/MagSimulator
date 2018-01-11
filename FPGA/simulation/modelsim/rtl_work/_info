@@ -1,0 +1,185 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Git/MagSimulator/FPGA/simulation/modelsim
+vADD
+Z1 !s110 1515497909
+!i10b 1
+!s100 9WK9kZj2`UL>18fEg5I6T0
+IGAN3Fc`fSI@]j;EQ:N`<G1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1514368268
+8F:/Git/MagSimulator/FPGA/ADD_sim/ADD.vo
+FF:/Git/MagSimulator/FPGA/ADD_sim/ADD.vo
+Z3 L0 32
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1515497909.000000
+!s107 F:/Git/MagSimulator/FPGA/ADD_sim/ADD.vo|
+!s90 -reportprogress|300|F:/Git/MagSimulator/FPGA/ADD_sim/ADD.vo|
+!i113 1
+Z6 tCvgOpt 0
+n@a@d@d
+vDIV
+Z7 !s110 1515497910
+!i10b 1
+!s100 HXYmg_88B]Vf6WWP1V6n[3
+I6Gfh7_WbQQ41cUCUQP;2g3
+R2
+R0
+w1515482726
+8F:/Git/MagSimulator/FPGA/DIV_sim/DIV.vo
+FF:/Git/MagSimulator/FPGA/DIV_sim/DIV.vo
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 F:/Git/MagSimulator/FPGA/DIV_sim/DIV.vo|
+!s90 -reportprogress|300|F:/Git/MagSimulator/FPGA/DIV_sim/DIV.vo|
+!i113 1
+R6
+n@d@i@v
+vFPH
+R1
+!i10b 1
+!s100 @Ge@E<<92haZ]oek3DL0c0
+I4QcIS@heZfRR8FiSfCm7h3
+R2
+R0
+w1514360604
+8F:/Git/MagSimulator/FPGA/FPH/simulation/FPH.v
+FF:/Git/MagSimulator/FPGA/FPH/simulation/FPH.v
+L0 6
+R4
+r1
+!s85 0
+31
+R5
+!s107 F:/Git/MagSimulator/FPGA/FPH/simulation/FPH.v|
+!s90 -reportprogress|300|F:/Git/MagSimulator/FPGA/FPH/simulation/FPH.v|
+!i113 1
+R6
+n@f@p@h
+vMagSimulator
+R7
+!i10b 1
+!s100 36FYaZM3VfKU?PE]QU1j@2
+IGn>WMCKOnB==QhaUOTU^H1
+R2
+R0
+w1515487626
+8F:/Git/MagSimulator/FPGA/MagSimulator.v
+FF:/Git/MagSimulator/FPGA/MagSimulator.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z8 !s108 1515497910.000000
+!s107 F:/Git/MagSimulator/FPGA/MagSimulator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Git/MagSimulator/FPGA|F:/Git/MagSimulator/FPGA/MagSimulator.v|
+!i113 1
+Z9 o-vlog01compat -work work
+Z10 !s92 -vlog01compat -work work +incdir+F:/Git/MagSimulator/FPGA
+R6
+n@mag@simulator
+vMULT
+R1
+!i10b 1
+!s100 zVF??1joP79D8^dI?iLKJ3
+Ic2ZT;K<7h:<YggagoooZf0
+R2
+R0
+w1515482760
+8F:/Git/MagSimulator/FPGA/MULT_sim/MULT.vo
+FF:/Git/MagSimulator/FPGA/MULT_sim/MULT.vo
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 F:/Git/MagSimulator/FPGA/MULT_sim/MULT.vo|
+!s90 -reportprogress|300|F:/Git/MagSimulator/FPGA/MULT_sim/MULT.vo|
+!i113 1
+R6
+n@m@u@l@t
+vPLL
+R7
+!i10b 1
+!s100 ]7W6S[Q]Q5]PkcRKc^`:@2
+I<7h?oc<JJZUVC2PHI9c=Z1
+R2
+R0
+w1515482686
+8F:/Git/MagSimulator/FPGA/PLL.v
+FF:/Git/MagSimulator/FPGA/PLL.v
+L0 40
+R4
+r1
+!s85 0
+31
+R8
+!s107 F:/Git/MagSimulator/FPGA/PLL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Git/MagSimulator/FPGA|F:/Git/MagSimulator/FPGA/PLL.v|
+!i113 1
+R9
+R10
+R6
+n@p@l@l
+vPLL_altpll
+R7
+!i10b 1
+!s100 B`=N3Lejfl3QbIkQnFU2`1
+I=?5:<HQ0>Z73mmcFUm5_f3
+R2
+R0
+w1514719778
+8F:/Git/MagSimulator/FPGA/db/pll_altpll.v
+FF:/Git/MagSimulator/FPGA/db/pll_altpll.v
+L0 30
+R4
+r1
+!s85 0
+31
+R8
+!s107 F:/Git/MagSimulator/FPGA/db/pll_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Git/MagSimulator/FPGA/db|F:/Git/MagSimulator/FPGA/db/pll_altpll.v|
+!i113 1
+R9
+!s92 -vlog01compat -work work +incdir+F:/Git/MagSimulator/FPGA/db
+R6
+n@p@l@l_altpll
+vtb
+R7
+!i10b 1
+!s100 GhYXTUUakPZ6ZMl;n5KCQ2
+IF2odf1lTC_LEKhzg>F6cc2
+R2
+R0
+w1515497892
+8F:/Git/MagSimulator/FPGA/simulation/modelsim/tb.v
+FF:/Git/MagSimulator/FPGA/simulation/modelsim/tb.v
+L0 6
+R4
+r1
+!s85 0
+31
+R8
+!s107 F:/Git/MagSimulator/FPGA/simulation/modelsim/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Git/MagSimulator/FPGA/simulation/modelsim|F:/Git/MagSimulator/FPGA/simulation/modelsim/tb.v|
+!i113 1
+R9
+!s92 -vlog01compat -work work +incdir+F:/Git/MagSimulator/FPGA/simulation/modelsim
+R6
